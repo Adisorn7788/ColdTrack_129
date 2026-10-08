@@ -1,0 +1,38 @@
+name: coldtrack
+description: "ระบบติดตามห่วงโซ่ความเย็น ColdTrack"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase & Validation
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.14.1
+
+# ✅ ตั้งค่าไอคอน — แก้ตรงนี้
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logoColdTrack.png"
+  adaptive_icon_background: "#F2F9F4"
+  adaptive_icon_foreground: "assets/icon/logoColdTrack.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/logoColdTrack.png

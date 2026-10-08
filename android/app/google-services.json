@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534108394220",
+    "project_id": "coldtrack129",
+    "storage_bucket": "coldtrack129.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534108394220:android:769631f7bc202abec10bc9",
+        "android_client_info": {
+          "package_name": "com.example.coldtrack_129_"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ni0yrDEt5yaqyagF_wZuwj8zyY2Snig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
